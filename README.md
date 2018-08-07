@@ -19,8 +19,9 @@ Se define el error relativo como:
 error = resultados_float - resultados_exactos/resultados_exactos
 ```
 
-Podemos ver que el error aumenta en mayor medida en el tipo *.float32* esto se debe a que no posee memoria suficiente par almacenar todos los decimales, entonces debe truncar o redondear su resultado, lo que genera una pequeña variación.
+Podemos ver que el error aumenta en mayor medida en el tipo *.float32* esto se debe a que no posee memoria suficiente par almacenar todos los decimales, entonces debe truncar o redondear su resultado, lo que genera una variación con respecto a la solucion exacta.
 
+![loss-of-significance](https://user-images.githubusercontent.com/28609274/43752908-32d9de10-99d1-11e8-806a-b50b70b773ba.png)
 
 
 Output Consola:
